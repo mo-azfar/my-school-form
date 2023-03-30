@@ -191,6 +191,6 @@ function save_new(filename) {
 }
 
 function validate_filename(filename) {
-    var filename_regex = /^[0-9a-zA-Z]{4,32}$/;
+    var filename_regex = /^[0-9a-zA-Z_]{4,50}$/;
     return filename_regex.test(filename);
 }
